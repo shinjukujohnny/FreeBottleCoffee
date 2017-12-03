@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38927BA31FD2A44200E6E1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38927BA21FD2A44200E6E1D9 /* AppDelegate.swift */; };
+		38927BA51FD2A44200E6E1D9 /* AvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38927BA41FD2A44200E6E1D9 /* AvViewController.swift */; };
+		38927BA81FD2A44200E6E1D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38927BA61FD2A44200E6E1D9 /* Main.storyboard */; };
+		38927BAB1FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38927BA91FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodeld */; };
+		38927BAD1FD2A44200E6E1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38927BAC1FD2A44200E6E1D9 /* Assets.xcassets */; };
+		38927BB01FD2A44200E6E1D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38927BAE1FD2A44200E6E1D9 /* LaunchScreen.storyboard */; };
+		38927BB81FD2AA5D00E6E1D9 /* fo.png in Resources */ = {isa = PBXBuildFile; fileRef = 38927BB71FD2AA5D00E6E1D9 /* fo.png */; };
+		38927BBC1FD2DE7500E6E1D9 /* red_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 38927BBB1FD2DE7500E6E1D9 /* red_back.png */; };
+		38927BBE1FD2E6EF00E6E1D9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38927BBD1FD2E6EF00E6E1D9 /* WebViewController.swift */; };
+		38927BC01FD2F27800E6E1D9 /* wireless-signal.png in Resources */ = {isa = PBXBuildFile; fileRef = 38927BBF1FD2F27800E6E1D9 /* wireless-signal.png */; };
+		38927BCC1FD3EA7600E6E1D9 /* IMG_5822.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 38927BCB1FD3EA7600E6E1D9 /* IMG_5822.MOV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38927B9F1FD2A44200E6E1D9 /* FreeBottleCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeBottleCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38927BA21FD2A44200E6E1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38927BA41FD2A44200E6E1D9 /* AvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvViewController.swift; sourceTree = "<group>"; };
+		38927BA71FD2A44200E6E1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38927BAA1FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreeBottleCoffee.xcdatamodel; sourceTree = "<group>"; };
+		38927BAC1FD2A44200E6E1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38927BAF1FD2A44200E6E1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38927BB11FD2A44200E6E1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38927BB71FD2AA5D00E6E1D9 /* fo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fo.png; sourceTree = "<group>"; };
+		38927BBB1FD2DE7500E6E1D9 /* red_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_back.png; sourceTree = "<group>"; };
+		38927BBD1FD2E6EF00E6E1D9 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+		38927BBF1FD2F27800E6E1D9 /* wireless-signal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wireless-signal.png"; sourceTree = "<group>"; };
+		38927BCB1FD3EA7600E6E1D9 /* IMG_5822.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5822.MOV; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38927B9C1FD2A44200E6E1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38927B961FD2A44200E6E1D9 = {
+			isa = PBXGroup;
+			children = (
+				38927BA11FD2A44200E6E1D9 /* FreeBottleCoffee */,
+				38927BA01FD2A44200E6E1D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38927BA01FD2A44200E6E1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38927B9F1FD2A44200E6E1D9 /* FreeBottleCoffee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38927BA11FD2A44200E6E1D9 /* FreeBottleCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				38927BBD1FD2E6EF00E6E1D9 /* WebViewController.swift */,
+				38927BA21FD2A44200E6E1D9 /* AppDelegate.swift */,
+				38927BA41FD2A44200E6E1D9 /* AvViewController.swift */,
+				38927BA61FD2A44200E6E1D9 /* Main.storyboard */,
+				38927BB71FD2AA5D00E6E1D9 /* fo.png */,
+				38927BBB1FD2DE7500E6E1D9 /* red_back.png */,
+				38927BBF1FD2F27800E6E1D9 /* wireless-signal.png */,
+				38927BCB1FD3EA7600E6E1D9 /* IMG_5822.MOV */,
+				38927BAC1FD2A44200E6E1D9 /* Assets.xcassets */,
+				38927BAE1FD2A44200E6E1D9 /* LaunchScreen.storyboard */,
+				38927BB11FD2A44200E6E1D9 /* Info.plist */,
+				38927BA91FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodeld */,
+			);
+			path = FreeBottleCoffee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38927B9E1FD2A44200E6E1D9 /* FreeBottleCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38927BB41FD2A44200E6E1D9 /* Build configuration list for PBXNativeTarget "FreeBottleCoffee" */;
+			buildPhases = (
+				38927B9B1FD2A44200E6E1D9 /* Sources */,
+				38927B9C1FD2A44200E6E1D9 /* Frameworks */,
+				38927B9D1FD2A44200E6E1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeBottleCoffee;
+			productName = FreeBottleCoffee;
+			productReference = 38927B9F1FD2A44200E6E1D9 /* FreeBottleCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38927B971FD2A44200E6E1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shinjukujohnny;
+				TargetAttributes = {
+					38927B9E1FD2A44200E6E1D9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U475F94P62;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 38927B9A1FD2A44200E6E1D9 /* Build configuration list for PBXProject "FreeBottleCoffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38927B961FD2A44200E6E1D9;
+			productRefGroup = 38927BA01FD2A44200E6E1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38927B9E1FD2A44200E6E1D9 /* FreeBottleCoffee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38927B9D1FD2A44200E6E1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38927BC01FD2F27800E6E1D9 /* wireless-signal.png in Resources */,
+				38927BB01FD2A44200E6E1D9 /* LaunchScreen.storyboard in Resources */,
+				38927BCC1FD3EA7600E6E1D9 /* IMG_5822.MOV in Resources */,
+				38927BAD1FD2A44200E6E1D9 /* Assets.xcassets in Resources */,
+				38927BB81FD2AA5D00E6E1D9 /* fo.png in Resources */,
+				38927BA81FD2A44200E6E1D9 /* Main.storyboard in Resources */,
+				38927BBC1FD2DE7500E6E1D9 /* red_back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38927B9B1FD2A44200E6E1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38927BA51FD2A44200E6E1D9 /* AvViewController.swift in Sources */,
+				38927BBE1FD2E6EF00E6E1D9 /* WebViewController.swift in Sources */,
+				38927BA31FD2A44200E6E1D9 /* AppDelegate.swift in Sources */,
+				38927BAB1FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38927BA61FD2A44200E6E1D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38927BA71FD2A44200E6E1D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38927BAE1FD2A44200E6E1D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38927BAF1FD2A44200E6E1D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38927BB21FD2A44200E6E1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38927BB31FD2A44200E6E1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38927BB51FD2A44200E6E1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U475F94P62;
+				INFOPLIST_FILE = FreeBottleCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinjukujohnny.FreeBottleCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38927BB61FD2A44200E6E1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U475F94P62;
+				INFOPLIST_FILE = FreeBottleCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinjukujohnny.FreeBottleCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38927B9A1FD2A44200E6E1D9 /* Build configuration list for PBXProject "FreeBottleCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38927BB21FD2A44200E6E1D9 /* Debug */,
+				38927BB31FD2A44200E6E1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38927BB41FD2A44200E6E1D9 /* Build configuration list for PBXNativeTarget "FreeBottleCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38927BB51FD2A44200E6E1D9 /* Debug */,
+				38927BB61FD2A44200E6E1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38927BA91FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38927BAA1FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodel */,
+			);
+			currentVersion = 38927BAA1FD2A44200E6E1D9 /* FreeBottleCoffee.xcdatamodel */;
+			path = FreeBottleCoffee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38927B971FD2A44200E6E1D9 /* Project object */;
+}
