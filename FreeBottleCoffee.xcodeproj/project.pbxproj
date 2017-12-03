@@ -18,6 +18,7 @@
 		38927BBE1FD2E6EF00E6E1D9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38927BBD1FD2E6EF00E6E1D9 /* WebViewController.swift */; };
 		38927BC01FD2F27800E6E1D9 /* wireless-signal.png in Resources */ = {isa = PBXBuildFile; fileRef = 38927BBF1FD2F27800E6E1D9 /* wireless-signal.png */; };
 		38927BCC1FD3EA7600E6E1D9 /* IMG_5822.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 38927BCB1FD3EA7600E6E1D9 /* IMG_5822.MOV */; };
+		38927BCE1FD3EC0300E6E1D9 /* coffee.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 38927BCD1FD3EC0300E6E1D9 /* coffee.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		38927BBD1FD2E6EF00E6E1D9 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		38927BBF1FD2F27800E6E1D9 /* wireless-signal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wireless-signal.png"; sourceTree = "<group>"; };
 		38927BCB1FD3EA7600E6E1D9 /* IMG_5822.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5822.MOV; sourceTree = "<group>"; };
+		38927BCD1FD3EC0300E6E1D9 /* coffee.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				38927BA21FD2A44200E6E1D9 /* AppDelegate.swift */,
 				38927BA41FD2A44200E6E1D9 /* AvViewController.swift */,
 				38927BA61FD2A44200E6E1D9 /* Main.storyboard */,
+				38927BCD1FD3EC0300E6E1D9 /* coffee.jpeg */,
 				38927BB71FD2AA5D00E6E1D9 /* fo.png */,
 				38927BBB1FD2DE7500E6E1D9 /* red_back.png */,
 				38927BBF1FD2F27800E6E1D9 /* wireless-signal.png */,
@@ -149,6 +152,7 @@
 				38927BB81FD2AA5D00E6E1D9 /* fo.png in Resources */,
 				38927BA81FD2A44200E6E1D9 /* Main.storyboard in Resources */,
 				38927BBC1FD2DE7500E6E1D9 /* red_back.png in Resources */,
+				38927BCE1FD3EC0300E6E1D9 /* coffee.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,7 @@
 				38927BB61FD2A44200E6E1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
